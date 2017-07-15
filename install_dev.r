@@ -48,6 +48,7 @@ from.github = function(pkg, lib = path, ref="master", overwrite = glob.overwrite
 
 }
 from.github(lib=path,"skranz/courser", dep=FALSE)
+from.github(lib=path,"skranz/courserClicker", dep=FALSE)
 
 cat("\n\nFailed installations:\n")
 print(failed)
